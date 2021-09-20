@@ -1,0 +1,9 @@
+FROM ubuntu:18.04
+
+ENV DIRPARENT /parent
+ENV DIRCHILD child
+
+WORKDIR $DIRPARENT/$DIRCHILD
+
+RUN ["pwd"]
+

@@ -1,0 +1,4 @@
+FROM ubuntu:latest
+
+ONBUILD RUN echo "hello world!"
+
