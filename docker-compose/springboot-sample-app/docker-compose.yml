@@ -4,7 +4,7 @@ services:
     container_name: mariadb
     image: mariadb:latest
     ports:
-      - "3306:3306"
+      - "3307:3307"
     environment:
       MARIADB_ROOT_PASSWORD: root
       MARIADB_DATABASE: testdb
